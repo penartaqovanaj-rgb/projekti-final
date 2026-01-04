@@ -60,8 +60,8 @@ nav a {
     line-height: 1.1;
     margin-bottom: 18px;
 
-    /* IMAGE AS TEXT COLOR */
-    background-image: url("gold.img"); /* <-- your image path */
+
+    background-image: url("gold.img");
     background-size: cover;
     background-position: center;
 
@@ -87,7 +87,7 @@ nav a {
 }
 
 
-/* hero image container */
+
 .hero-image {
     position: relative;
     flex: 1;
@@ -97,8 +97,8 @@ nav a {
 /* stacked images */
 .hero-image img {
     position: absolute;
-    top: 40px;              /* adjust vertical position */
-    right: 0;               /* lock to right side */
+    top: 40px;             
+    right: 0;               
     width: 100%;
     max-width: 520px;
     height: 70vh;
@@ -108,7 +108,6 @@ nav a {
     border-radius: 18px;
 }
 
-/* staggered crossfade */
 .hero-image .img-1 {
     opacity: 1;
     animation: fade1 16s infinite;
@@ -276,13 +275,13 @@ nav a {
     font-size: 15px;
 }
 
-/* form layout */
+
 .apply-section form {
     display: flex;
     flex-direction: column;
 }
 
-/* labels */
+
 .apply-section label {
     font-size: 14px;
     font-weight: 600;
@@ -290,7 +289,7 @@ nav a {
     color: #8a660c;
 }
 
-/* inputs */
+
 .apply-section input {
     padding: 13px 15px;
     margin-bottom: 20px;
@@ -306,7 +305,7 @@ nav a {
     box-shadow: 0 0 0 3px rgba(30, 138, 120, 0.15);
 }
 
-/* submit button */
+
 .apply-section button {
     margin-top: 12px;
     padding: 15px;
@@ -413,13 +412,13 @@ nav a {
     font-size: 15px;
 }
 
-/* form layout */
+
 .donate-section form {
     display: flex;
     flex-direction: column;
 }
 
-/* labels */
+
 .donate-section label {
     font-size: 14px;
     font-weight: 600;
@@ -427,7 +426,7 @@ nav a {
     color:#8a660c
 }
 
-/* inputs */
+
 .donate-section input {
     padding: 13px 15px;
     margin-bottom: 20px;
@@ -443,7 +442,6 @@ nav a {
     box-shadow: 0 0 0 3px rgba(30, 138, 120, 0.15);
 }
 
-/* donate button */
 .donate-section button {
     font-family: 'Nunito', sans-serif;
     margin-top: 12px;
