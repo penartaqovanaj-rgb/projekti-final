@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+         <header class="navbar">
+        <div class="logo">
+            <img src="Image-1.png" alt="Hospital Logo">
+             <h2>The Athens Royal <br>
+                 Hospital</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="staff.html">Doctors</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="apply.html">Apply</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+       <div class="donation-section">
+  <p class="donation-text">
+    It would be awesome if you donated!
+  </p>
+
+  <div class="slider">
+    <div class="slider-track">
+      <img src="donate1.img" alt="">
+      <img src="donate2.img" alt="">
+      <img src="donate3.img" alt="">
+      <img src="donate4.img" alt="">
+      <img src="donate5.img" alt="">
+      <img src="donate6.img" alt="">
+      <img src="donate7.img" alt="">
+      <img src="hospital5.img" alt="">
+
+      <img src="img1.jpg" alt="">
+      <img src="img2.jpg" alt="">
+      <img src="img3.jpg" alt="">
+      <img src="img4.jpg" alt="">
+      <img src="img5.jpg" alt="">
+      <img src="img6.jpg" alt="">
+      <img src="img7.jpg" alt="">
+      <img src="hospital5.img" alt="">
+    
+    </div>
+  </div>
+</div>
+
+<section class="donate-section">
+    <h2>Make a Donation</h2>
+    <p>Your generosity helps us provide better care and save lives.</p>
+
+    <form action="donate_action.php" method="post">
+
+        <label for="donor-name">Full Name</label>
+        <input
+            type="text"
+            id="donor-name"
+            name="donor_name"
+            required
+            placeholder="Your full name"
+        >
+
+        <label for="donor-email">Email</label>
+        <input
+            type="email"
+            id="donor-email"
+            name="donor_email"
+            required
+            placeholder="example@email.com"
+        >
+
+        <label for="amount">Donation Amount ($)</label>
+        <input
+            type="number"
+            id="amount"
+            name="amount"
+            min="5"
+            required
+            placeholder="Minimum $5"
+        >
+
+        <label for="message">Message (Optional)</label>
+        <input
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Leave a message (optional)"
+        >
+
+        <button type="submit">Donate Now</button>
+    </form>
+
+    <p class="donate-note">
+        Thank you for supporting The Athens Royal Hospital ❤️
+    </p>
+</section>
+<footer class="footer">
+    <p>© 2026 Athens Royal Hospital · Athens, Greece · contact@athensroyalhospital.gr</p>
+</footer>
+
+</body>
+</html>
